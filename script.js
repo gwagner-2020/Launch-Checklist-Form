@@ -27,7 +27,6 @@ function init() {
 
             let container = document.getElementById("missionTarget");
 
-     
             randomIndex = (Math.floor(Math.random()*data.length));
     
             container.innerHTML += `
